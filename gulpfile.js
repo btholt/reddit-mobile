@@ -36,3 +36,6 @@ gulp.task('watch', ['js', 'less'], function() {
 
   gulp.watch([build + '/**/*'], reloadPage);
 });
+
+gulp.task('heroku:development', ['default']);
+gulp.task('heroku:production', ['default']);
